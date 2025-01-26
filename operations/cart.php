@@ -71,7 +71,7 @@ if (isset($_SESSION['clientTableno']) && !empty($_SESSION['clientTableno'])) {
         
          <center>
             <h2 class="text-light fw-bold fs-2 mt-5 mb-4">Ohh! your carts is empty.</h2>
-            <a href="/expedia/" class="web-btn px-3 py-2 fs-5 fw-bold rounded shadow">Home</a>
+            <a href="/Expedia-Your-travelling-partner/" class="web-btn px-3 py-2 fs-5 fw-bold rounded shadow">Home</a>
         </center>
         
         ';
@@ -81,8 +81,8 @@ if (isset($_SESSION['clientTableno']) && !empty($_SESSION['clientTableno'])) {
     <center>
         <h2 class="text-light fw-bold fs-2 mt-5 mb-4">You are now login right now!</h2>
         <div class="d-flex align-items-center justify-content-center">
-            <a href="/expedia/pages/my-account.php" class="web-btn px-3 py-2 fs-5 fw-bold rounded shadow me-3">Login</a>
-            <a href="/expedia/" class="web-btn px-3 py-2 fs-5 fw-bold rounded shadow">Home</a>
+            <a href="/Expedia-Your-travelling-partner/pages/my-account.php" class="web-btn px-3 py-2 fs-5 fw-bold rounded shadow me-3">Login</a>
+            <a href="/Expedia-Your-travelling-partner/" class="web-btn px-3 py-2 fs-5 fw-bold rounded shadow">Home</a>
         </div>
     </center>
     ';

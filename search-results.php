@@ -96,7 +96,7 @@ if (isset($_SESSION['resultofQuerySearch']) && !empty($_SESSION['resultofQuerySe
                     }
                     echo '
                                     </p>
-                                     <a href="/expedia/operations/booking-confirmation.php?id=' . htmlspecialchars(trim($fetchResultQueryforView['id'])) . '&db=' . htmlspecialchars(trim($tableSource)) . '" type="submit" class="btn web-btn click-to-fetch border-0 px-3 font-500">Book now</a>
+                                     <a href="/Expedia-Your-travelling-partner/operations/booking-confirmation.php?id=' . htmlspecialchars(trim($fetchResultQueryforView['id'])) . '&db=' . htmlspecialchars(trim($tableSource)) . '" type="submit" class="btn web-btn click-to-fetch border-0 px-3 font-500">Book now</a>
                                 </div>
                                 </div>
                             </div>

@@ -43,7 +43,7 @@ class fetchRequestData
                             $insertQ = "INSERT INTO `client_cart`(`login_id`, `fetch_cart_id`, `db_name`, `companyname`, `start_from`,`start_to`,`availablefrom`, `availableto`, `price`, `adult_count`, `chldren_count`) VALUES ('$clientLoginId', '$this->reqId','$this->reqDb','$name','$startfrom','$startto','$dateF','$dateT','$price','$adult_count','$children_count')";
                             $runinsertQ = mysqli_query($connection, $insertQ);
                             if($runinsertQ){
-                                header('Location: /expedia/operations/cart.php');
+                                header('Location: /Expedia-Your-travelling-partner/operations/cart.php');
                             }else{
                                 echo "Something went wrong";
                             }
