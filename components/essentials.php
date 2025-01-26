@@ -7,7 +7,7 @@
     <title>Expedia</title>
 
     <!-- favicons -->
-    <link rel="shortcut icon" href="/expedia/images/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/Expedia-Your-travelling-partner/images/logo.png" type="image/x-icon">
 
     <!-- bootstrap css cdn -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -182,7 +182,7 @@
         }
 
         .region-india {
-            background-image: url('/expedia/images/india.jpg');
+            background-image: url('/Expedia-Your-travelling-partner/images/india.jpg');
             height: 20px;
         }
 
