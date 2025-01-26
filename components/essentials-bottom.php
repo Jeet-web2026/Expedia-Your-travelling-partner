@@ -196,7 +196,7 @@
             e.preventDefault();
 
             $.ajax({
-                url: '/expedia/operations/logout.php',
+                url: '/Expedia-Your-travelling-partner/operations/logout.php',
                 method: 'POST',
                 success: function(response) {
                     if (response == 'You are not logged in.') {
@@ -207,7 +207,7 @@
                         </div>                
                         `);
                         setTimeout(() => {
-                            window.location.href = '/expedia/pages/my-account.php';
+                            window.location.href = '/Expedia-Your-travelling-partner/pages/my-account.php';
                         }, 1500);
                     } else {
                         $('.sign-out-alert').html(`
@@ -232,7 +232,7 @@
         $('#edit-exsistinfo-form').on('submit', function(e) {
             e.preventDefault();
             $.ajax({
-                url: "/expedia/operations/edit-existinfo.php",
+                url: "/Expedia-Your-travelling-partner/operations/edit-existinfo.php",
                 method: "POST",
                 data: $(this).serialize(),
                 success: function(response) {
@@ -244,7 +244,7 @@
                         </div>                    
                         `);
                         setTimeout(() => {
-                            window.location.href = '/expedia/pages/my-account.php';
+                            window.location.href = '/Expedia-Your-travelling-partner/pages/my-account.php';
                         }, 1000);
                     } else if (response == "Data not updated") {
                         $('.show-edit-alert').html(`
