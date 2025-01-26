@@ -111,7 +111,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <form action="/expedia/operations/edit-existinfo.php" method="POST" id="edit-exsistinfo-form">
+                                                <form action="/Expedia-Your-travelling-partner/operations/edit-existinfo.php" method="POST" id="edit-exsistinfo-form">
                                                     <fieldset disabled>
                                                         <div class="my-3">
                                                             <label for="disabledName" class="form-label">Your name :</label>
@@ -232,7 +232,7 @@
                                                 ?>
                                             </p>
                                             <center>
-                                                <form action="/expedia/operations/logout.php" id="session-destroy" method="POST">
+                                                <form action="/Expedia-Your-travelling-partner/operations/logout.php" id="session-destroy" method="POST">
                                                     <button type="submit" class="btn web-btn border-0 shadow px-4 py- mt-3 font-500">Logout</button>
                                                 </form>
                                             </center>
@@ -254,7 +254,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="/expedia/operations/cart.php">
+                        <a class="nav-link text-light" href="/Expedia-Your-travelling-partner/operations/cart.php">
                             <i class="fa-solid fa-cart-plus me-2"></i>Cart
                         </a>
                     </li>
@@ -273,8 +273,8 @@
                             My Scratchpad
                         </a>
                         <ul class="dropdown-menu border-0">
-                            <li><a class="dropdown-item" href="/expedia/pages/available-coupons.php">Available coupons</a></li>
-                            <li><a class="dropdown-item" href="/expedia/pages/visited-places.php">Visited places</a></li>
+                            <li><a class="dropdown-item" href="/Expedia-Your-travelling-partner/pages/available-coupons.php">Available coupons</a></li>
+                            <li><a class="dropdown-item" href="/Expedia-Your-travelling-partner/pages/visited-places.php">Visited places</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -282,8 +282,8 @@
                             Login
                         </a>
                         <ul class="dropdown-menu border-0">
-                            <li><a class="dropdown-item" href="/expedia/pages/my-account.php">My account</a></li>
-                            <li><a class="dropdown-item" href="/expedia/pages/admin-login.php">Admin login</a></li>
+                            <li><a class="dropdown-item" href="/Expedia-Your-travelling-partner/pages/my-account.php">My account</a></li>
+                            <li><a class="dropdown-item" href="/Expedia-Your-travelling-partner/pages/admin-login.php">Admin login</a></li>
                         </ul>
                     </li>
                     <button type="button" class="btn shadow-none border-0 text-light" data-bs-toggle="modal" data-bs-target="#region-modal">
